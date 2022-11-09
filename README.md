@@ -10,7 +10,7 @@ in windows use ```venv\Scripts\activate```
 * Install the required packages by running the following command in the terminal:
 ```pip install -r requirements.txt```
 * To start the server run the following command in the terminal:
-```python manage.py runserver```
+```uvicorn main:app```
 ## Usage
 * To view the swagger documentation and test the API go to
 ```http://127.0.0.1:8000/docs/```
